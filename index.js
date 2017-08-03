@@ -1,5 +1,5 @@
-const CreateTree = require('./src/tree')
-const CreateTreeNode = require('./src/tree-node')
+const CreateTree = require('./lib/tree')
+const CreateTreeNode = require('./lib/tree-node')
 
 
 module.exports = exports = {
