@@ -1,6 +1,6 @@
 {
   "name": "ui-tree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A UI Tree data structure for any front end, or none at all!",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "chai": "^4.1.0",
     "mocha": "^3.5.0"
   },
-  "repository" :
-    { "type" : "git",
-      "url" : "https://github.com/ptpaterson/ui-tree"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptpaterson/ui-tree"
+  }
 }
