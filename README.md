@@ -1,4 +1,4 @@
-# ui-tree [![GitHub version]()]()
+# ui-tree [![npm package]()]()
 
 > A UI Tree data structure for any front end, or none at all!
 
@@ -19,6 +19,5 @@ const uiTree = require('ui-tree')
 var data = { /* your data */ }
 
 var tree = uiTree.CreateTree(data)
-
 
 ```
