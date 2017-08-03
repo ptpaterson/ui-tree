@@ -1,4 +1,5 @@
-# ui-tree [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/ui-tree)
+# ui-tree [![npm](https://img.shields.io/npm/v/ui-tree.svg)](https://www.npmjs.com/package/ui-tree)
+
 
 > A UI Tree data structure for any front end, or none at all!
 
