@@ -1,6 +1,6 @@
 {
   "name": "ui-tree",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A UI Tree data structure for any front end, or none at all!",
   "main": "index.js",
   "scripts": {
