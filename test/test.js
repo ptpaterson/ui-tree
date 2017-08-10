@@ -240,8 +240,8 @@ describe('UiTree module', () => {
     })
 
     describe('tree.Load', () => {
-      var tree = UiTree.CreateTree(data1)
       it('should be a function', () => {
+        var tree = UiTree.CreateTree(data1)
         expect(tree.Load).to.be.a('function')
       })
 
@@ -251,8 +251,27 @@ describe('UiTree module', () => {
       })
     })
 
+    describe('tree.SetCurrentNode', () => {
+      it('should be a function', () => {
+        var tree = UiTree.CreateTree(data1)
+        expect(tree.SetCurrentNode).to.be.a('function')
+      })
+
+      it('should set node.isCurrent to true and update tree reference', () => {
+        var tree = UiTree.CreateTree(data1)
+        expect(tree.root.isCurrent).to.equal(false)
+        tree.SetCurrentNode(tree.root)
+        expect(tree.root.isCurrent).to.equal(true)
+        // reset current node before changing to new one
+        tree.SetCurrentNode(tree.root.children[0])
+        expect(tree.root.isCurrent).to.equal(false)
+        expect(tree.root.children[0].isCurrent).to.equal(true)
+      })
+    })
+
     describe('tree.GetSelected', () => {
       it.skip('should be a function', () => {
+        //var tree = UiTree.CreateTree(data1)
         //expect(tree.GetSelected).to.be.a('function')
       })
 
