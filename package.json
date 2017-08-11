@@ -4,12 +4,13 @@
   "description": "A UI Tree data structure for any front end, or none at all!",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha"
   },
   "author": "Paul Paterson <ptpaterson@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.5.0"
   },
   "repository": {
